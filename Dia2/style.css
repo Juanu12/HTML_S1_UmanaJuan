@@ -1,0 +1,33 @@
+
+.Titulo1{
+   text-align: center;
+}
+#foto{
+    width:250px;
+    height: 250px;
+    border-radius: 90% ;
+    border: 1.5px solid black; 
+    object-fit: cover;
+    object-position: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: rgb(217, 239, 246);
+}
+
+body {
+    border: 5px solid rgb(55, 52, 52)
+
+}
+.info1{
+    padding: 25px;
+    margin: 5px 10px;
+    background-color: rgb(241, 241, 230);
+    width: 200px;
+    border: 2px solid;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
