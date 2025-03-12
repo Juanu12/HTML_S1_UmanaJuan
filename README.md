@@ -1,5 +1,4 @@
 # Ejercicios HTML
-Relizar diccionarios y menu crud en base a un caso de una empresa
 
 ## Tabla de contenidos
 | Indice | Titulo  |
