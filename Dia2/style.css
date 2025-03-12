@@ -1,3 +1,4 @@
+/*Cambiamos y modificamos la ubicación ,aspecto, margen de distancia entre cuedros, bordes , tamaño de las imgenes , fondo de las imagenes y fondo de la pagina*/
 
 .Titulo1{
    text-align: center;
@@ -30,4 +31,41 @@ body {
     margin-left: 20px;
     margin-top: 20px;
 
+}
+#foto2 {
+    width:250px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid;
+}
+.info3 {
+    padding: 25px;
+    margin: 20px 20px;
+    background-color: rgb(241, 241, 230);
+    width: 200px;
+    border: 2px solid;
+    margin-left: 320px;
+    margin-top: -1100px;
+    margin-bottom: 900px;
+}
+.info4{
+    padding: 25px;
+    margin: 20px 20px;
+    background-color: rgb(241, 241, 230);
+    width: 200px;
+    border: 2px solid;
+    margin-left: 320px;
+    margin-top: -800px;
+    margin-bottom: 500px;
+}
+.Info5{
+    padding: 25px;
+    margin: 20px 20px;
+    background-color: rgb(241, 241, 230);
+    width: 200px;
+    border: 2px solid;
+    margin-left: 800px;
+    margin-top: -1120px;
+    margin-bottom: 700px;
 }
