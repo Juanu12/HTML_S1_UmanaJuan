@@ -15,5 +15,6 @@ Ejecutar en visual code
 -1 En este apartado se encuentran las imagenes que se descargaron y se vincularon con la página
 -2 En este apartado se encuentra el código en la parte de Html que le da textos, títulos , nombre , organización de las tablas y sus elementos, y otros aspectos de estructura de la página
 -3 En este apartado se encuentra la parte de diseño de las letras, márgenes, tablas, diseños, etc.
-
+Resultado final
+![image](https://github.com/user-attachments/assets/5f59d27e-b2a2-4991-9e7f-cac8a5ad824a)
 
