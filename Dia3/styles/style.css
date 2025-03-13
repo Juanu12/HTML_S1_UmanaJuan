@@ -1,4 +1,4 @@
-/*Cambiamos y modificamos la ubicación ,aspecto, margen de distancia entre cuedros, bordes , tamaño de las imgenes , fondo de las imagenes y fondo de la pagina*/
+/*Cambiamos y modificamos la ubicación ,aspecto, margen de distancia entre cuadros, bordes de tablas, tamaño de las imgenes , fondo de las imagenes y fondo de la pagina incluyendo y editando tablas*/
 #foto{
     width:250px;
     height: 250px;
@@ -25,4 +25,41 @@ body {
 #N1{
     border: 2px solid rgb(214, 160, 110)
 }
+#foto2{
+    width:250px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid;
+}
 
+#Info2{
+    padding: 25px;
+    margin: 20px 20px;
+    background-color: rgb(241, 241, 230);
+    width: 200px;
+    border: 2px solid;
+    margin-left: 320px;
+    margin-top: -1100px;
+    margin-bottom: 900px;
+}
+#Info3{
+    padding: 25px;
+    margin: 20px 20px;
+    background-color: rgb(241, 241, 230);
+    width: 200px;
+    border: 2px solid;
+    margin-left: 320px;
+    margin-top: -800px;
+    margin-bottom: 500px;
+}
+#Info4{
+    padding: 25px;
+    margin: 20px 20px;
+    background-color: rgb(241, 241, 230);
+    width: 200px;
+    border: 2px solid;
+    margin-left: 800px;
+    margin-top: -1600px;
+    margin-bottom: 100px;
+}

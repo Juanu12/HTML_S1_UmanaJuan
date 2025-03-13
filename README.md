@@ -5,6 +5,7 @@
 |--|--|
 | 1 | Dia1 |
 | 2 | Dia2 |
+| 2 | Dia3 |
 
 
 ### Instrucciones
@@ -23,6 +24,10 @@ En la parte de style.css, esta la parte de css, en la cual, se modifica la estru
 
 En la carpeta de imágenes, están las imagenes que se  descargaron para el ejercicio
 ![image](https://github.com/user-attachments/assets/89d05e3e-fcae-4ce8-a21e-eb54d872f24a)
+
+3- En esta carpeta se encuentra lo realizado en el día 3, el ejercicio consistí en tomar las bases de lo realizado en el día 2 y convertirlo en tablas.
+
+
 
 
 
