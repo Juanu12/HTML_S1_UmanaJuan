@@ -26,6 +26,17 @@ En la carpeta de imágenes, están las imagenes que se  descargaron para el ejer
 ![image](https://github.com/user-attachments/assets/89d05e3e-fcae-4ce8-a21e-eb54d872f24a)
 
 3- En esta carpeta se encuentra lo realizado en el día 3, el ejercicio consistí en tomar las bases de lo realizado en el día 2 y convertirlo en tablas.
+En esta parte se encuentra la parte de HTML, esta, se bsa en los textos, títulos, nombres y estructura básica del archivo y las tablas que van a organizar la página.
+![image](https://github.com/user-attachments/assets/63bf372f-0e8d-4d28-ac8f-35cdd43c5657)
+
+
+En la carpeta de style.css, esta la parte de css, en la cual, se modifica la estructursa de la página, poniendo mrcos, fondo, , modificar formas de imagenes, su anco, largo, ubicación de los elementos, tablas , esntre otras.
+
+![image](https://github.com/user-attachments/assets/5c21c256-ef05-4b5f-8179-41b0e823a7a5)
+
+En la carpeta de imágenes, están las imagenes que se  descargaron para el ejercicio
+![image](https://github.com/user-attachments/assets/4341079f-2a67-4ee0-9697-969880d633cf)
+
 
 
 
