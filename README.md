@@ -5,7 +5,9 @@
 |--|--|
 | 1 | Dia1 |
 | 2 | Dia2 |
-| 2 | Dia3 |
+| 3 | Dia3 |
+| 3 | Dia4 |
+
 
 
 ### Instrucciones
@@ -36,6 +38,17 @@ En la carpeta de style.css, esta la parte de css, en la cual, se modifica la est
 
 En la carpeta de imágenes, están las imagenes que se  descargaron para el ejercicio
 ![image](https://github.com/user-attachments/assets/4341079f-2a67-4ee0-9697-969880d633cf)
+
+3- En esta se encuentra el ejercicio realizado en el día 4, el cuál consiste en crear un formulario página web
+
+En la parte de styles.css, se se alinean todos los elementos y se aejan del borde izquierdo
+![image](https://github.com/user-attachments/assets/fee00773-4f0e-4a70-a7af-2c7ec3713b52)
+
+En la parte de index.html, se ponen y modifican los elementos del formularion, se aplican opciones de selección, espaceios para correos, descripciones, entre otras.
+![image](https://github.com/user-attachments/assets/a80da118-e284-446f-b55a-8282d6e3614c)
+
+En la parte de index2.html, se encuentra la página a la que va a redirigir el formulario, la cuál está vacía
+![image](https://github.com/user-attachments/assets/6813d5cb-0bbf-4d2c-9d7e-6aa22dfaab02)
 
 
 
