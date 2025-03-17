@@ -1,14 +1,14 @@
 
     @font-face {
     font-family: "Amazon1"; 
-    src: url('/Dia5/Fonts/Amazon\ Ember\ Cd\ RC\ Bold.otf');
+    src: url('../Dia5/Fonts/Amazon\ Ember\ Cd\ RC\ Bold.otf');
     font-weight: normal;
     font-style: normal;
 
     }
     @font-face {
         font-family: "Amazon2"; 
-        src: url('/Dia5/Fonts/Amazon\ Ember\ Light.ttf');
+        src: url('../Dia5/Fonts/Amazon\ Ember\ Light.ttf');
         font-weight: normal;
         font-style: light;
 }
@@ -41,12 +41,11 @@ background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
 opacity: 0.35;
 position: absolute;
 }
-#Foto4{
-    top: 30px;
-    left: 1695px;
+.Foto4{
+    top: 60px;
+    left: 1600px;
     width: 205px;
     height: 54px;
-    background: transparent url('img/Group 1.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
 }
@@ -54,14 +53,14 @@ position: absolute;
     position: absolute;
     font-family: "Amazon2";
     font-size: 20px;
-    top: 30px;
-    left: 1773px;
+    top: -3px;
+    left: 75px;
     width: 50px;
     height: 20px;
     font-size: 20px;
-    background: transparent url('img/Login.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
+    color: black;
 }
 #Foto5{
     top: 37px;
@@ -98,28 +97,20 @@ position: absolute;
     font-family:"Amazon2";
     text-align: center;
 }
-.Sign{
-    top: 787px;
-    left: 780px;
-    width: 360px;
-    height: 40px;
-    background: transparent url('img/Sign-Up on Amazon.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    font-family: "Amazon2";
-    position: absolute;
-    color: #FFFFFF;
-    font-size: 40px;
-    }
-#Foto6{
-top: 755px;
-left: 730px;
+
+.rectangle1{
+top: 787px;
+left: 780px;
 width: 458px;
 height: 104px;
 background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
+background-color: #FFFFFF;
 border: 1px solid #707070;
 border-radius: 52px;
 opacity: 1;
 position: absolute;
+font-family: "Amazon1";
+font-size: 40px;
 }
 
     #Foto7{
@@ -320,3 +311,14 @@ position: absolute;
     opacity: 1;
     position: absolute;
 }
+.sign{
+    top: 1000px;
+    font-size: 40px;
+    left: 40px;
+    font-family: "Amazon1";
+    text-align: center;
+    }
+
+.block{
+
+    }
