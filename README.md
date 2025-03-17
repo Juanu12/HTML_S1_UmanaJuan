@@ -33,6 +33,7 @@ En esta parte se encuentra la parte de HTML, esta, se bsa en los textos, título
 ![image](https://github.com/user-attachments/assets/63bf372f-0e8d-4d28-ac8f-35cdd43c5657)
 
 
+
 En la carpeta de style.css, esta la parte de css, en la cual, se modifica la estructursa de la página, poniendo mrcos, fondo, , modificar formas de imagenes, su anco, largo, ubicación de los elementos, tablas , esntre otras.
 
 ![image](https://github.com/user-attachments/assets/5c21c256-ef05-4b5f-8179-41b0e823a7a5)
@@ -40,7 +41,7 @@ En la carpeta de style.css, esta la parte de css, en la cual, se modifica la est
 En la carpeta de imágenes, están las imagenes que se  descargaron para el ejercicio
 ![image](https://github.com/user-attachments/assets/4341079f-2a67-4ee0-9697-969880d633cf)
 
-3- En esta se encuentra el ejercicio realizado en el día 4, el cuál consiste en crear un formulario página web
+4- En esta Carpeta, se encuentra el ejercicio realizado en el día 4, el cuál consiste en crear un formulario página web
 
 En la parte de styles.css, se se alinean todos los elementos y se aejan del borde izquierdo
 ![image](https://github.com/user-attachments/assets/fee00773-4f0e-4a70-a7af-2c7ec3713b52)
@@ -50,6 +51,20 @@ En la parte de index.html, se ponen y modifican los elementos del formularion, s
 
 En la parte de index2.html, se encuentra la página a la que va a redirigir el formulario, la cuál está vacía
 ![image](https://github.com/user-attachments/assets/6813d5cb-0bbf-4d2c-9d7e-6aa22dfaab02)
+
+5- En esta carpeta, se encuentra el ejercicio realizado en el día 5, el cuál consiste en replicar unaa pagina web de amazon.
+
+En la carpeta de styles.css, se encuentra la parte de los diseños, ubicación, tamaño y tipografía de los elementos de la página web.
+<img width="736" alt="image" src="https://github.com/user-attachments/assets/26ad5532-07a6-4025-8e39-97be215aa1ba" />
+
+En la parte de index.html, se encuentra la estructura de los textos, la importación de las imágenes y los archivos a utilizar y se separan por ids y clases.
+<img width="704" alt="image" src="https://github.com/user-attachments/assets/d482f340-a8b5-4b29-8faf-6e1c6b4da4b2" />
+
+En la carpeta de imagenes, se encuentran todos los recursos de imágenes y elementos a importar en index.html
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/4bd1a8f8-70d2-4a0f-b33b-b856af320055" />
+
+En la carpeta de Fonts, están, las tipografías qu se descargaron y se van a importar
+<img width="717" alt="image" src="https://github.com/user-attachments/assets/db20842f-01b8-475b-9f24-0d34e2ae8e91" />
 
 
 
