@@ -1,4 +1,18 @@
 
+    @font-face {
+    font-family: "Amazon1"; 
+    src: url('/Dia5/Fonts/Amazon\ Ember\ Cd\ RC\ Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+
+    }
+    @font-face {
+        font-family: "Amazon2"; 
+        src: url('/Dia5/Fonts/Amazon\ Ember\ Light.ttf');
+        font-weight: normal;
+        font-style: light;
+}
+
 #Foto1{
     top: 0px;
     left: 2px;
@@ -9,7 +23,7 @@
     opacity: 1;
 }
 #Foto2{
-    top: 227px;
+    top: 180px;
     left: 682px;
     width: 556px;
     height: 313px;
@@ -26,4 +40,283 @@ height: 1080px;
 background: transparent url('img/FondoTwitch.png') 0% 0% no-repeat padding-box;
 opacity: 0.35;
 position: absolute;
+}
+#Foto4{
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    background: transparent url('img/Group 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.Loguin{
+    position: absolute;
+    font-family: "Amazon2";
+    font-size: 20px;
+    top: 30px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
+    background: transparent url('img/Login.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#Foto5{
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('img/Icon awesome-search.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.Your{
+    font-size: 60px;
+    top: 400px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    background: transparent url('img/Your favorite content, on one place only..png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    color: #FFFFFF;
+    font-family: "Amazon1";
+    text-align: center;
+}
+.Littletext{
+    top: 520px;
+    left: 380px;
+    width: 1160px;
+    height: 102px;
+    background: transparent url('img/Now you can enjoy everything from Amazon Prime Video and Twitch Prime with you Amazon Prime subscription on one place that brings all the entertainment you love. .png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family:"Amazon2";
+    text-align: center;
+}
+.Sign{
+    top: 787px;
+    left: 780px;
+    width: 360px;
+    height: 40px;
+    background: transparent url('img/Sign-Up on Amazon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-family: "Amazon2";
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 40px;
+    }
+#Foto6{
+top: 755px;
+left: 730px;
+width: 458px;
+height: 104px;
+background: transparent url('img/Rectangle 2.png') 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+border-radius: 52px;
+opacity: 1;
+position: absolute;
+}
+
+    #Foto7{
+    top: 950px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('img/Group 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    }
+    .Foto8{
+    top: 1617px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    background: transparent url('img/Rectangle 3.svg') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+    position: absolute;
+    
+    }
+    .Dont{
+     top: 1673px;
+     left: 300px;
+     width: 1664px;
+     height: 60px;
+     background: transparent url('img/Don’t like to watch Live? No problem , we got you covered.png') 0% 0% no-repeat padding-box;
+     opacity: 1;
+     position: absolute;
+     font-size: 60px;
+     font-family: "Amazon1";
+     color: #FFFFFF;
+    }
+    #Foto9{
+        top: 1850px;
+        left: 670px;
+        width: 181px;
+        height: 309px;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        position: absolute;
+      }
+    #Foto10{
+        top: 1850px;
+        left: 863px;
+        width: 180px;
+        height: 309px;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        position: absolute;
+    }
+    #Foto11{
+        top: 1850px;
+        left: 1055px;
+        width: 181px;
+        height: 309px;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        position: absolute;
+    }
+    #Foto12{
+        top: 1850px;
+        left: 1248px;
+        width: 181px;
+        height: 309px;
+        background: transparent url('img/Rectangle 4.png') 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        position: absolute;
+    }
+    #Foto13{
+        top: 1850px;
+        left: 477px;
+        width: 181px;
+        height: 309px;
+        background: transparent url('img/Rectangle 4.png') 0% 0%;
+        position: absolute;
+    }
+.You{
+    top: 2130px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    background: transparent url('img/You’ll find a variety of movies, not only for adults but also for your family, with our without internet. 24/7. On demand..png') 0% 0% no-repeat padding-box;
+    opacity: 0,5;
+    position: absolute;
+    font-family:"Amazon2";
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.Foto14{
+    top: 2410px;
+    left: 2px;
+    width: 1900px;
+    height: 725px;
+    background: transparent url('img/Rectangle 3.png') 0% 0% no-repeat padding-box;
+    border-radius: 208px;
+    opacity: 1;
+    position: absolute;
+}
+.Cancel{
+    top: 2420px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    background: transparent url('img/Cancel any time , anywhere .png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    font-size: 58px;
+    color: #FFFFFF;
+
+}
+#Foto15{
+    top: 2660px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    background: transparent url('img/Icon metro-cancel.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.If{
+    top: 2880px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    background: transparent url('img/If you don’t like our services, you can cancel anytime you want , no contracts, no fees..png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    font-family: "Amazon2";
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Comp{
+    top: 3050px;
+    left: 418px;
+    width: 1118px;
+    height: 100px;
+    background: transparent url('img/Compatible devices.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    font-family: "Amazon2";
+    font-size: 125px;
+    color: #FFFFFF;
+}
+.There{
+    top: 3350px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    background: transparent url('img/There’s a range of devices where you can enjoy all of the content available in Prime Entertainment:.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    font-family: "Amazon2";
+    font-size: 45px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+#Foto16{
+    top: 3590px;
+    left: 770px;
+    width: 384px;
+    height: 334px;
+    background: transparent url('img/Image 1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#Foto17{
+    top: 3706px;
+    left: 610px;
+    width: 156px;
+    height: 119px;
+    background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#Foto18{
+    top: 3687px;
+    left: 1140px;
+    width: 171px;
+    height: 148px;
+    background: transparent url('img/Image 3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#Foto19{
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
 }
