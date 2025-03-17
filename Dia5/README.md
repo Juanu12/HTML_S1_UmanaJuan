@@ -1,5 +1,5 @@
-# Ejercicio Día4
-Realizar un modelo de pagina web con estructura de hoja de vida
+# Ejercicio Día5
+Replicar una página de amazon
 
 ## Tabla de contenidos
 | Indice | Titulo  |
@@ -12,10 +12,10 @@ Realizar un modelo de pagina web con estructura de hoja de vida
 ### Instrucciones
 Ejecutar en visual code
 ### Secciónes de la tabla
--1 En este apartado se encuentran las imagenes que se descargaron y se vincularon con la página
--2 En este apartado se encuentran los elementos que conforman el formulario, se modifican sus propiedades, se hacen check-box con y sin autocheck y se hacen descripciones.
--3 En este apartado se usa css para mover todos los elementos a la izquierda y moverlos 
-resultado final 
-![image](https://github.com/user-attachments/assets/cec656dc-17c2-457e-b4b1-f0c10ed69df5)
+-1 En este apartado se encuentran todos los elementos y títulos usados para la página web, sus respetivos identificadores
+-2 En este apartado se encuentran las imagenes que se descargaron para el contenido de la página.
+-3 En este apartado se encuentra la parte estética, la posición absoluta, ubicación, importación de la tipografía a usar,tamaños y tipos de letra.
+-4 En este apartado se encuentran las tipografías descargadas.
+
 
 
