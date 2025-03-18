@@ -11,8 +11,19 @@
         src: url('../Dia5/Fonts/Amazon\ Ember\ Light.ttf');
         font-weight: normal;
         font-style: light;
-}
 
+    }
+
+#With{
+        top: 1440px;
+        left: 200px;
+        color: #ffffff;
+        font-family: "Amazon2";
+        font-size: 170px;
+        font-size: 34px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+    }
 #Foto1{
     top: 0px;
     left: 2px;
@@ -328,19 +339,9 @@ font-size: 40px;
     background-color: #00A8E1;
     font-size: 30px;
     font-family: "Amazon1";
-    border: 1px black;
+    border: 1px rgb(255, 255, 255);
     position: absolute;
     text-align: center;
-    }
-    #With{
-        top: 1800px;
-        left: 400px;
-        color: #FFFFFF;
-        font-family: "Amazon2";
-        font-size: 170px;
-        font-size: 34px;
-        color: black;
-        position: absolute;
     }
 #Live{
     top: 1600px;
