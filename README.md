@@ -8,6 +8,8 @@
 | 3 | Dia3 |
 | 4 | Dia4 |
 | 5 | Dia5 |
+| 6 | Dia6 |
+
 
 
 
@@ -65,6 +67,8 @@ En la carpeta de imagenes, se encuentran todos los recursos de imágenes y eleme
 
 En la carpeta de Fonts, están, las tipografías qu se descargaron y se van a importar
 <img width="717" alt="image" src="https://github.com/user-attachments/assets/db20842f-01b8-475b-9f24-0d34e2ae8e91" />
+
+6- En este día se realizó una mejora de lo realizado el día 5
 
 
 

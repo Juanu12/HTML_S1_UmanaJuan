@@ -315,10 +315,46 @@ font-size: 40px;
     top: 1000px;
     font-size: 40px;
     left: 40px;
-    font-family: "Amazon1";
+    font-family: "Amazon1"; 
     text-align: center;
     }
-
-.block{
-
+#block {
+    top: 1006px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    opacity: 1;
+    border-radius: 82px;
+    background-color: #00A8E1;
+    font-size: 30px;
+    font-family: "Amazon1";
+    border: 1px black;
+    position: absolute;
+    text-align: center;
     }
+    #With{
+        top: 1800px;
+        left: 400px;
+        color: #FFFFFF;
+        font-family: "Amazon2";
+        font-size: 170px;
+        font-size: 34px;
+        color: black;
+        position: absolute;
+    }
+#Live{
+    top: 1600px;
+    left: 400px;
+    color: #FFFFFF;
+    font-family: "Amazon1";
+    font-size: 70px;
+}
+
+#Teleicon{
+    top: 1130px;
+    left: 64px;
+    width: 1792px;
+    height: 300px;
+    position: absolute;
+    size: 10px;
+}
