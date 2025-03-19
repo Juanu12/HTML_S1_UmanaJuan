@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: "Fair";
+    src: url(../Fonts/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+    font-family: "Barlow";
+    src: url(../Fonts/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: "Semibold";
+    src: url(../Fonts/open-sauce.one-semibold.ttf);
+}
+body{
+   background-color: black;
+    position: absolute;
+}
+#fondo{
+width: 1920;
+height: 1080;
+position: absolute;
+
+
+}
+.Day{
+    top: 600px;
+    left: 1900px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 250px;
+    position: absolute;
+    transform: scaleX(0,5);
+    letter-spacing: 15px;
+
+}
+.Logo{
+    top: -150px;
+    left: 1000px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 130px;
+    position: absolute;
+    font-family: "Barlow";
+
+}
+
+.Home{
+    top: -100px;
+    left: 4000px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 90px;
+    position: absolute;
+    font-family: "Barlow";
+
+}
+
+.About{
+    top: -100px;
+    left: 4500px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 90px;
+    position: absolute;
+    font-family: "Barlow";
+
+}
+.Menu{
+    top: -100px;
+    left: 5000px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 90px;
+    position: absolute;
+    font-family: "Barlow";
+
+}
+.Contact{
+    top: -100px;
+    left: 5500px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 90px;
+    position: absolute;
+    font-family: "Barlow";
+
+}
