@@ -9,6 +9,8 @@
 | 4 | Dia4 |
 | 5 | Dia5 |
 | 6 | Dia6 |
+| 7 | Dia7 |
+
 
 
 
@@ -69,6 +71,27 @@ En la carpeta de Fonts, están, las tipografías qu se descargaron y se van a im
 <img width="717" alt="image" src="https://github.com/user-attachments/assets/db20842f-01b8-475b-9f24-0d34e2ae8e91" />
 
 6- En este día se realizó una mejora de lo realizado el día 5
+
+7-En esta carpeta se encuentra el ejercicio realizado el día 7, el cuál consistía en realizar el diseño de una página para ver saldo y comprar tarjeta metrolínea
+En la parte de index.html, se encuentra la estructura de los elementos y recursos usados para la página principal
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/e2422674-5d46-42b2-b39f-3bb32a45e539" />
+
+En la parte de index2.html se eencuentra la estructura de los  elementos y recursos usados para la página secundaria
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/83c4c98a-7cab-4948-b17f-1d83b03490c0" />
+
+En la parte de styles.css, se encuentra la parte gráfica de los elementos , importación de letras y recusros de la página principal
+<img width="683" alt="image" src="https://github.com/user-attachments/assets/c820835e-8c2c-4c1f-8a6c-dc5fb344ab0c" />
+
+En la parte de styles2.css, se encuentra la parte gráfica de los elementos , importación de letras y recusros de la página secundaria
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/cfb9551d-facd-4ec8-a8fc-ee47a6edc123" />
+
+En la parte de fonts, se encuantran las tipogrfías descargadas para el ejercicio
+<img width="768" alt="image" src="https://github.com/user-attachments/assets/41b43802-99f0-4f06-8fd8-aca2d20ba543" />
+
+En la parte de imagenes se encuentran las imgágenes y recursos descargados para el ejercicio
+<img width="764" alt="image" src="https://github.com/user-attachments/assets/f7db4d51-1673-47cc-a0f8-7267c9874051" />
+
+
 
 
 
