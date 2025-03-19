@@ -10,12 +10,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
 .Cuerpo{
     background:linear-gradient(#fff, #e6e6e6, #808080);
     top: 0px;
     left: 0px;
     width: 1600px;
     height: 1200px;
+    position: absolute;
 }
 
 #Cuadroblanco{
@@ -25,7 +27,7 @@
     height: 800px;
     border: 1px solid #707070;
     opacity: 1;
-    position: relative;
+    position: absolute;
 }
 #Tarjeta{
     top: 322px;
@@ -43,20 +45,22 @@
     opacity: 1;
     position: absolute;   
 }
-#Logo2{
+.Logo2{
     top: 876px;
-    left: 1195px;
+    left: 1595px;
     width: 129px;
-    height: 29px;
+    height: 27px;
     opacity: 1;
-    position: absolute;
+    display: flex;
+    margin: 23px 80px 70px 15px;
 }
-#Cuadroverde{
+.Cuadrometrolinea{
     top: 847px;
     left: 1180px;
     width: 160px;
     height: 114px;
-    background: #D5FF43 0% 0% no-repeat padding-box;
+    background-color: #D5FF43 ;
+    color: #D5FF43; 
     border-radius: 8px;
     opacity: 1;
     position: absolute;
@@ -69,8 +73,8 @@
     background: transparent;
     font-family: "Semibold";
     color: black;
-    position: absolute;
     font-size: 26px;
+    margin: -50px 80px 70px 23px;
 }
 .COP{
 top: 924px;
@@ -102,6 +106,7 @@ position: absolute;
 
 }
 .Saldo{
+    text-decoration: none;
     top: 242px;
     left: 1072px;
     width: 132px;
@@ -136,18 +141,19 @@ position: absolute;
     height: 32px;
     position: absolute;
 }
-#blackrectangle{
-    top: 210px;
-    left: 1400px;
+.bloquesaldo{
+    top: 200px;
+    left: 1390px;
     width: 110px;
     height: 800px;
+    background: #212020 0% 0% no-repeat padding-box;
     border-radius: 0px 8px 8px 0px;
     opacity: 1;
     position: absolute;
 }
 #uparrow{
     top: 240px;
-    left: 1443px;
+    left: 1433px;
     width: 24px;
     height: 14px;
     opacity: 1;
@@ -156,7 +162,7 @@ position: absolute;
 }
 #downarrow{
     top: 946px;
-    left: 1443px;
+    left: 1433px;
     width: 24px;
     height: 14px;
     opacity: 1;
@@ -164,7 +170,7 @@ position: absolute;
 }
 .Cant{
     top: 349px;
-    left: 1413px;
+    left: 1403px;
     width: 84px;
     height: 27px;
     opacity: 1;
@@ -175,7 +181,7 @@ position: absolute;
 }
 #Menu{
     top: 507px;
-    left: 1445px;
+    left: 1435px;
     width: 23px;
     height: 187px;
     opacity: 1;
