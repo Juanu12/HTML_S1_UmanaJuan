@@ -15,6 +15,12 @@ body{
    background-color: rgb(18, 15, 15);
     position: absolute;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
 #fondo{
 width: 1920;
 height: 1080;
@@ -57,9 +63,13 @@ position: absolute;
     font-family: "Barlow";
 
 }
+.Home:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
+}
 
 
-.About{
+.About1{
     top: -100px;
     left: 4080px;
     width: 3000px;
@@ -68,7 +78,12 @@ position: absolute;
     font-size: 80px;
     position: absolute;
     font-family: "Barlow";
+    color: white;
 
+}
+.About1:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
 }
 .Menu{
     top: -100px;
@@ -81,6 +96,10 @@ position: absolute;
     font-family: "Barlow";
 
 }
+.Menu:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
+}
 .Contact{
     top: -100px;
     left: 4850px;
@@ -91,6 +110,10 @@ position: absolute;
     position: absolute;
     font-family: "Barlow";
 
+}
+.Contact:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
 }
 .Coffe{
     top: 3200px;
@@ -227,7 +250,7 @@ letter-spacing: 10px;
     position: absolute;
     size: 3000px;
     font-family: "Fair";
-    font-size: 30px;
+    font-size: 40px;
     transform: scaleX(0,1);
     border-radius: 5px;
     border-color: white;
@@ -235,7 +258,7 @@ letter-spacing: 10px;
 }
 .Learn2{
     top: -20px;
-    left: 90px;
+    left: 80px;
     width: 450px;
     height: 125px;
     font-family: "Fair";
@@ -255,21 +278,164 @@ letter-spacing: 10px;
     font-style: normal;
 }
 #Mochaft1{
-    top: 8500px;
-    left: 120px;
+    top: 8450px;
+    left: 150px;
     position: absolute;
     transform: scale(0.2);
 }
+#Mochaft2{
+    top: 8250px;
+    left: 2100px;
+    position: absolute;
+    transform: scale(0.23);
+    z-index: +1;
+}
 .Table1{
     top: 9200px;
-    left: 120px;
+    left: 520px;
     color: white;
     border: 1px solid #f8c471;  
-    font-size: 100px;
+    font-size: 40px;
     position: absolute;
-    border: 1px;
     border-radius: 7px;
+    width: 750px;
+    text-align: center;
+    height: 1000px;
+}
+.txtcuadro{
+    top: 200px;
+    left: 320px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font-weight: 900;
+}
+.Ex{
+    top: 400px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
 
+.Cho{
+    top: 500px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Steamed{
+    top: 600px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.Square4{
+    top: 10000px;
+    left: 960px;
+    width: 450px;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 30px;
+    transform: scaleX(0.2);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Table2{
+    top: 9200px;
+    left: 2400px;
+    color: white;
+    border: 1px solid #f8c471;  
+    font-size: 40px;
+    position: absolute;
+    border-radius: 7px;
+    width: 750px;
+    text-align: center;
+    height: 1000px;
+}
+.txtcuadro2{
+    top: 200px;
+    left: 320px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font-weight: 900;
+}
+.Ex2{
+    top: 400px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.Cho2{
+    top: 500px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Steamed2{
+    top: 600px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.learn3{
+    top: 800px;
+    left: 220px;
+    bottom: 3000px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    font-family: "Semibold";
+    background-color: #f8c471;
+    font-size: 30px;
+
+}
+.learn4{
+    top: 800px;
+    left: 220px;
+    bottom: 3000px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    font-family: "Semibold";
+    background-color: #f8c471;
+    font-size: 30px;
+
+}
+.learn5{
+    top: 800px;
+    left: 220px;
+    bottom: 3000px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    font-family: "Semibold";
+    background-color: #f8c471;
+    font-size: 30px;
 }
 .Border2{
     top: 10400px;
@@ -281,23 +447,24 @@ letter-spacing: 10px;
 }
 
 #Mochaft2{
-    top: 8550px;
+    top: 8500px;
     left: 2100px;
     position: absolute;
     transform: scale(0.23);
 }
 #Mochaft3{
-    top: 8870px;
-    left: 4100px;
+    top: 8820px;
+    left: 4125px;
     position: absolute;
     transform: scale(0.43);
 }
-.About{
+.Aboutus{
     top: 11670px;
     left: 1080px;
     position: absolute;
     font-family: "Semibold";
     font-size: 150px;
+    color: white;
 }
 .Us{
     top: 11820px;
@@ -322,4 +489,162 @@ letter-spacing: 10px;
     font-family: "Semibold";
     font-size: 150px;
     color: #f8c471;
+}
+.Table3{
+    top: 9200px;
+    left: 4100px;
+    color: white;
+    border: 1px solid #f8c471;  
+    font-size: 40px;
+    position: absolute;
+    border-radius: 7px;
+    width: 750px;
+    text-align: center;
+    height: 1000px;
+}
+.txtcuadro3{
+    top: 200px;
+    left: 320px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font-weight: 900;
+}
+.Ex3{
+    top: 400px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.Cho3{
+    top: 500px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Steamed3{
+    top: 600px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Aboutus{
+    top: 11670px;
+    left: 1080px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Us{
+    top: 11820px;
+    left: 1650px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+}
+.Contacttxt{
+    top: 11665px;
+    left: 2500px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Us2{
+    top: 11665px;
+    left: 3180px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+}
+.Opening{
+    top: 11665px;
+    left: 3790px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Hourse{
+    top: 11665px;
+    left: 4490px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+
+}
+.Lorem3{
+    top: 12165px;
+    left: 700px;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: absolute;
+    transform: scale(0.8);
+    width: 1500px;
+    text-align: center;
+}
+.Lorem4{
+    top: 12165px;
+    left: 2200px;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: absolute;
+    transform: scale(0.8);
+    width: 1500px;
+    text-align: center;
+}
+.Lorem5{
+    top: 12165px;
+    left: 3700px;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: absolute;
+    transform: scale(0.8);
+    width: 1500px;
+    text-align: center;
+}
+.Border3{
+    top: 12200px;
+    left: 2100px;
+    color: #f8c471;
+    font-size: 390px;
+   position: absolute;
+   
+}
+.Copy{
+    top: 13000px;
+    left: 2600px;
+    color: white;
+    font-size: 50px;
+   position: absolute;
+   width: 4000px;
+   font-family: "Semibold";
+   font-weight: 100;
+}
+.CL{
+    top: 13000px;
+    left: 3470px;
+    color: #f8c471;
+    font-size: 50px;
+   position: absolute;
+   font-family: "Barlow";
+   font-weight: 100;
+   
 }
