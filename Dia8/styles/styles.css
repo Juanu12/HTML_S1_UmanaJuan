@@ -12,7 +12,7 @@
     src: url(../Fonts/open-sauce.one-semibold.ttf);
 }
 body{
-   background-color: black;
+   background-color: rgb(18, 15, 15);
     position: absolute;
 }
 #fondo{
@@ -48,46 +48,278 @@ position: absolute;
 
 .Home{
     top: -100px;
-    left: 4000px;
+    left: 3670px;
     width: 3000px;
     color: white;
     font-family: "Fair";
-    font-size: 90px;
+    font-size: 80px;
     position: absolute;
     font-family: "Barlow";
 
 }
 
+
 .About{
     top: -100px;
-    left: 4500px;
+    left: 4080px;
     width: 3000px;
     color: white;
     font-family: "Fair";
-    font-size: 90px;
+    font-size: 80px;
     position: absolute;
     font-family: "Barlow";
 
 }
 .Menu{
     top: -100px;
-    left: 5000px;
+    left: 4500px;
     width: 3000px;
     color: white;
     font-family: "Fair";
-    font-size: 90px;
+    font-size: 80px;
     position: absolute;
     font-family: "Barlow";
 
 }
 .Contact{
     top: -100px;
-    left: 5500px;
+    left: 4850px;
     width: 3000px;
     color: white;
     font-family: "Fair";
-    font-size: 90px;
+    font-size: 80px;
     position: absolute;
     font-family: "Barlow";
 
+}
+.Coffe{
+    top: 3200px;
+    left: 1900px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 250px;
+    position: absolute;
+    transform: scaleX(0,1);
+    letter-spacing: 15px;
+}
+.Square{
+    top: 3600px;
+    left: 2850px;
+    width: 450px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 30px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Shop{
+    top: -20px;
+    left: 110px;
+    width: 450px;
+    height: 125px;
+    font-family: "Fair";
+    font-size: 50px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+.Border{
+    top: 5000px;
+    left: 2800px;
+    color: white;
+    font-size: 70px;
+   position: absolute;
+}
+#Coffeimg1{
+    top: 5300px;
+    left: 900px;
+transform: scale(3.5);
+   position: absolute;
+}
+
+.Our{
+    top: 4800px;
+    left: 3220px;
+    width: 10000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 200px;
+    position: absolute;
+}
+.Lorem1{
+    top: 5300px;
+    left: 3220px;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: absolute;
+    word-break: break-all;
+}
+.Square2{
+    top: 5780px;
+    left: 3220px;
+    width: 450px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 30px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Learn{
+    top: -20px;
+    left: 90px;
+    width: 450px;
+    height: 125px;
+    font-family: "Fair";
+    font-size: 50px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+#Coffeimg2{
+    top: 6500px;
+    left: 2690px;
+    transform: scale(0.6);
+    position: absolute;
+}
+.Enjoy {
+top: 7100px;
+left: 700px;
+width: 1200px;
+color: white;
+font-family: "Fair";
+font-style: oblique;
+font-size: 110px;
+position: absolute;
+letter-spacing: 10px;
+}
+.Lorem2{
+    top: 7600px;
+    left: 155px;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: absolute;
+    word-break: break-all;
+    transform: scale(0.6);
+}
+.Square3{
+    top: 7880px;
+    left: 680px;
+    width: 450px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 30px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Learn2{
+    top: -20px;
+    left: 90px;
+    width: 450px;
+    height: 125px;
+    font-family: "Fair";
+    font-size: 50px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+.Products{
+    top: 8500px;
+    left: 450px;
+    position: absolute;
+    color: white;
+    font-family: "Fair";
+    font-size: 130px;
+    font-style: normal;
+}
+#Mochaft1{
+    top: 8500px;
+    left: 120px;
+    position: absolute;
+    transform: scale(0.2);
+}
+.Table1{
+    top: 9200px;
+    left: 120px;
+    color: white;
+    border: 1px solid #f8c471;  
+    font-size: 100px;
+    position: absolute;
+    border: 1px;
+    border-radius: 7px;
+
+}
+.Border2{
+    top: 10400px;
+    left: 2000px;
+    color: #f8c471;
+    font-size: 390px;
+   position: absolute;
+   
+}
+
+#Mochaft2{
+    top: 8550px;
+    left: 2100px;
+    position: absolute;
+    transform: scale(0.23);
+}
+#Mochaft3{
+    top: 8870px;
+    left: 4100px;
+    position: absolute;
+    transform: scale(0.43);
+}
+.About{
+    top: 11670px;
+    left: 1080px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+}
+.Us{
+    top: 11820px;
+    left: 1650px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+}
+.Contacttxt{
+    top: 11665px;
+    left: 2500px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Us2{
+    top: 11665px;
+    left: 3180px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
 }
