@@ -91,6 +91,24 @@ En la parte de fonts, se encuantran las tipogrfías descargadas para el ejercici
 En la parte de imagenes se encuentran las imgágenes y recursos descargados para el ejercicio
 <img width="764" alt="image" src="https://github.com/user-attachments/assets/f7db4d51-1673-47cc-a0f8-7267c9874051" />
 
+8- En esta carpeta se encuentra el ejercicio realizado el día 7, en el cuál se replicó una página de una tienda de café
+
+En la parte de index.html, se encuentra la estructura de los elementos , recursos usados para la página principal, las divisiones correspondientes e hipervínculos.
+<img width="738" alt="image" src="https://github.com/user-attachments/assets/2b953459-167f-4b4f-b105-946f77bc2b4e" />
+
+En En la parte de styles.css, se encuentra la parte gráfica de los elementos , importación de letras , recusros de la página principal, hoovers y cambios en la scroll bar.
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/644b1c8c-f83d-43a2-84cc-aef11ffa2c83" />
+
+En la parte de fonts, se encuantran las tipogrfías descargadas para el ejercicio
+<img width="764" alt="image" src="https://github.com/user-attachments/assets/6651254e-acac-4fab-b3c3-35a3a2e1c8ff" />
+
+En la parte de imagenes se encuentran las imgágenes y recursos descargados para el ejercicio
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/4410e001-95b2-4853-bdf5-8aafd329859e" />
+
+
+
+
+
 
 
 
