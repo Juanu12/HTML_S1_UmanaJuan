@@ -1,5 +1,5 @@
 # Ejercicio Día8
-Replicar una página de amazon
+Replicar una página de una tienda de caé
 
 ## Tabla de contenidos
 | Indice | Titulo  |
