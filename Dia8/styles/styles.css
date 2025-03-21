@@ -20,6 +20,12 @@ a {
     color: white;
     text-decoration: none;
 }
+body ::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+    width: 15px;
+    size: 500px;
+}
 
 #fondo{
 width: 1920;
@@ -61,6 +67,7 @@ position: absolute;
     font-size: 80px;
     position: absolute;
     font-family: "Barlow";
+    
 
 }
 .Home:hover{
@@ -79,12 +86,37 @@ position: absolute;
     position: absolute;
     font-family: "Barlow";
     color: white;
+   
+    
 
 }
 .About1:hover{
     cursor: pointer;
     text-decoration: underline #f8c471;
+ 
 }
+@keyframes About1 {
+    0% {
+        transform: translateX(100%);
+      }
+      50% {
+        transform: translateX(100%);
+        opacity: 1;
+      }
+      50.001% {
+        opacity: 0;
+        transform: translateX(100vw);
+      }
+      50.002% {
+        opacity: 1;
+        transform: translateX(100vw);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+
 .Menu{
     top: -100px;
     left: 4500px;
