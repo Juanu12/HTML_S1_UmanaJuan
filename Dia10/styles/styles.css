@@ -1,0 +1,664 @@
+
+@font-face {
+    font-family: "Fair";
+    src: url(../Fonts/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+    font-family: "Barlow";
+    src: url(../Fonts/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: "Semibold";
+    src: url(../Fonts/open-sauce.one-semibold.ttf);
+}
+body{
+   background-color: rgb(18, 15, 15);
+    position: absolute;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+body ::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 5px;
+    width: 15px;
+    size: 500px;
+}
+
+#fondo{
+width: 1920;
+height: 1080;
+position: absolute;
+
+
+}
+.Day{
+    left: 17%;
+    top: 2em;
+    color: white;
+    font-family: "Fair";
+    font-size: 250px;
+    margin: 100px;
+    padding: 100px;
+    position: relative;
+    transform: scaleX(0,5);
+    letter-spacing: 15px;
+
+
+}
+.Logo{
+    top: -10em;
+    left: 1000px;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 130px;
+    font-family: "Barlow";
+    position: relative;
+
+}
+
+.Home{
+    top: -19.4em;
+    left: 47em;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 80px;
+    position: relative;
+    font-family: "Barlow";
+    
+
+}
+.Home:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
+}
+
+
+.About1{
+    top: -21.6em;
+    left: 51.5em;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 80px;
+    position: relative;
+    font-family: "Barlow";
+    color: white;
+   
+    
+
+}
+.About1:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
+ 
+}
+
+
+.Menu{
+    top: -23.8em;
+    left: 56em;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 80px;
+    position: relative;
+    font-family: "Barlow";
+
+}
+.Menu:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
+}
+.Contact{
+    top: -26em;
+    left: 59.5em;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 80px;
+    position: relative;
+    font-family: "Barlow";
+
+}
+.Contact:hover{
+    cursor: pointer;
+    text-decoration: underline #f8c471;
+}
+.Coffe{
+    top: 3em;
+    left: 7.5em;
+    width: 3000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 250px;
+    position: relative;
+    transform: scaleX(0,1);
+    letter-spacing: 15px;
+}
+.Square{
+    top: 32em;
+    left: 28%;
+    width: 450px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 30px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Shop{
+    top: -20px;
+    left: 110px;
+    width: 450px;
+    height: 125px;
+    font-family: "Fair";
+    font-size: 50px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+.Border{
+    top: 32em;
+    left: 28%;
+    color: white;
+    font-size: 70px;
+   position: relative;
+}
+#Coffeimg1{
+    top: 144em;
+    left: 10%;
+transform: scale(3.5);
+   position: relative;
+}
+
+.Our{
+    top: 7em;
+    left: 32%;
+    width: 10000px;
+    color: white;
+    font-family: "Fair";
+    font-size: 200px;
+    position: relative;
+}
+.Lorem1{
+    top: 16em;
+    left: 3220px;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: relative;
+    word-break: break-all;
+}
+.Square2{
+    top: 46em;
+    left: 32%;
+    width: 450px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 30px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Learn{
+    top: -20px;
+    left: 90px;
+    width: 450px;
+    height: 125px;
+    font-family: "Fair";
+    font-size: 50px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+#Coffeimg2{
+    top: 130em;
+    left: 27%;
+    transform: scale(0.6);
+    position: relative;
+}
+.Enjoy {
+top: 5em;
+left: 700px;
+width: 1200px;
+color: white;
+font-family: "Fair";
+font-style: oblique;
+font-size: 110px;
+position: relative;
+letter-spacing: 10px;
+}
+.Lorem2{
+    top: 6.8em;
+    left: 1.5%;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: relative;
+    word-break: break-all;
+    transform: scale(0.6);
+}
+.Square3{
+    top: 14em;
+    left: 680px;
+    width: 450px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 40px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Learn2{
+    top: -20px;
+    left: 80px;
+    width: 450px;
+    height: 125px;
+    font-family: "Fair";
+    font-size: 50px;
+    transform: scaleX(0,1);
+    border-radius: 5px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+.Products{
+    top: 7em;
+    left: 450px;
+    position: relative;
+    color: white;
+    font-family: "Fair";
+    font-size: 130px;
+    font-style: normal;
+}
+#Mochaft1{
+    top: 34em;
+    left: 1.5%;
+    position: relative;
+    transform: scale(0.2);
+}
+#Mochaft2{
+    top: 8250px;
+    left: 200%;
+    position: absolute;
+    transform: scale(0.23);
+    z-index: +1;
+}
+.Table1{
+    top: 230em;
+    left: 5.1%;
+    color: white;
+    border: 1px solid #f8c471;  
+    font-size: 40px;
+    position: absolute;
+    border-radius: 7px;
+    width: 750px;
+    text-align: center;
+    height: 1000px;
+}
+.txtcuadro{
+    top: 200px;
+    left: 320px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font-weight: 900;
+}
+.Ex{
+    top: 400px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.Cho{
+    top: 500px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Steamed{
+    top: 600px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.Square4{
+    top: 10000px;
+    left: 960px;
+    width: 450px;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    size: 3000px;
+    font-family: "Fair";
+    font-size: 30px;
+    transform: scaleX(0.2);
+    border-radius: 5px;
+    border-color: white;
+    background-color: #f8c471;
+}
+.Table2{
+    top: -85.8em;
+    left: 24%;
+    color: white;
+    border: 1px solid #f8c471;  
+    font-size: 40px;
+    position: relative;
+    border-radius: 7px;
+    width: 750px;
+    text-align: center;
+    height: 1000px;
+}
+.txtcuadro2{
+    top: 200px;
+    left: 320px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font-weight: 900;
+}
+.Ex2{
+    top: 400px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.Cho2{
+    top: 500px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Steamed2{
+    top: 600px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.learn3{
+    top: 800px;
+    left: 220px;
+    bottom: 3000px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    font-family: "Semibold";
+    background-color: #f8c471;
+    font-size: 30px;
+
+}
+.learn4{
+    top: 800px;
+    left: 220px;
+    bottom: 3000px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    font-family: "Semibold";
+    background-color: #f8c471;
+    font-size: 30px;
+
+}
+.learn5{
+    top: 800px;
+    left: 220px;
+    bottom: 3000px;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    font-family: "Semibold";
+    background-color: #f8c471;
+    font-size: 30px;
+}
+.Border2{
+    top: 0.5em;
+    left: 20%;
+    color: #f8c471;
+    font-size: 390px;
+   position: relative;
+   
+}
+
+#Mochaft2{
+    top: 8500px;
+    left: 21%;
+    position: absolute;
+    transform: scale(0.23);
+}
+#Mochaft3{
+    top: 8820px;
+    left: 41.4%;
+    position: absolute;
+    transform: scale(0.43);
+}
+.Aboutus{
+    top: 11670px;
+    left: 1080px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Us{
+    top: 11820px;
+    left: 1650px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+}
+.Contacttxt{
+    top: 11665px;
+    left: 2500px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Us2{
+    top: 11665px;
+    left: 3180px;
+    position: absolute;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+}
+.Table3{
+    top: -110.6em;
+    left: 41%;
+    color: white;
+    border: 1px solid #f8c471;  
+    font-size: 40px;
+    position: relative;
+    border-radius: 7px;
+    width: 750px;
+    text-align: center;
+    height: 1000px;
+}
+.txtcuadro3{
+    top: 200px;
+    left: 320px;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    font-weight: 900;
+}
+.Ex3{
+    top: 400px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+
+.Cho3{
+    top: 500px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Steamed3{
+    top: 600px;
+    left: 250px;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    font-weight: 550;
+}
+.Aboutus{
+    top: 1.1em;
+    left: 11%;
+    position: relative;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Us{
+    top: -1.1em;
+    left: 16%;
+    position: relative;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+}
+.Contacttxt{
+    top: -3.3em;
+    left: 25%;
+    position: relative;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Us2{
+    top: -5.5em;
+    left: 32%;
+    position: relative;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+}
+.Opening{
+    top: -7.8em;
+    left: 38%;
+    position: relative;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: white;
+}
+.Hourse{
+    top: -10em;
+    left: 45%;
+    position: relative;
+    font-family: "Semibold";
+    font-size: 150px;
+    color: #f8c471;
+
+}
+.Lorem3{
+    top: -44.5em;
+    left: 7%;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: relative;
+    transform: scale(0.8);
+    width: 1500px;
+    text-align: center;
+}
+.Lorem4{
+    top: -62.4em;
+    left: 21.7%;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: relative;
+    transform: scale(0.8);
+    width: 1500px;
+    text-align: center;
+}
+.Lorem5{
+    top: -66em;
+    left: 3700px;
+    width: 2700px;
+    color: white;
+    font-family: "Semibold";
+    font-size: 80px;
+    position: relative;
+    transform: scale(0.8);
+    width: 1500px;
+    text-align: center;
+}
+.Border3{
+    top: -10.3em;
+    left: 20%;
+    color: #f8c471;
+    font-size: 390px;
+   position: relative;
+   
+}
+.Copy{
+    top: -98.5em;
+    left: 25.8%;
+    color: white;
+    font-size: 50px;
+   position: relative;
+   width: 4000px;
+   font-family: "Semibold";
+   font-weight: 100;
+}
+.CL{
+    top: -100.7em;
+    left: 34.7%;
+    color: #f8c471;
+    font-size: 50px;
+   position: relative;
+   font-family: "Barlow";
+   font-weight: 100;
+   
+}
