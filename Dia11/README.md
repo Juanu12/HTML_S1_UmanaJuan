@@ -1,1 +1,1 @@
-Diseño de una página web usando grids
+ El Diseño de una página web usando grids
