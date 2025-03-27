@@ -1,12 +1,57 @@
+@font-face {
+    font-family: "Game";
+    src: url(../Fonts/homevideo.ttf);
+}
 .body{
     margin: 0;
-    image-rendering: pixelated;
+    image-rendering: optimizeQuality;
 }
 .Fondo img{
  width: 100%;
 height: 100%;
+position: absolute;
+
 }
 .Sol img{
-    width: 20%;
+    width: 15%;
     height: 40%;
+    position: relative;
+    margin-left: 80%;
+    animation: sun 30s linear;
 }
+
+.Nube img{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    margin-left: 100%;
+    margin-top: -15%;
+    animation: cloud 15s linear;
+    animation-delay: 5s;
+}
+.Countdown{
+    font-size: 620%;
+    font-family: "Game";
+    position: relative;
+    left: 50%;
+    animation: letters 10s linear;
+}
+@keyframes cloud {
+    0%{left:100vw;}
+    30%{left: -60vw;}
+    50%{left: -50vw;}
+    100%{left: -110vw;}
+}
+@keyframes sun {
+    0%{opacity: 50%;}
+    100%{opacity: 100%;}
+}
+
+@keyframes letters {
+    100%{ margin-top: 1vw; opacity: 0%;}
+    50%{margin-top: 0; opacity: 100% ;}
+    
+    0%{margin-top: -1vw; opacity: 0%;}
+}
+
+#l1{ animation-delay: 3s;}
