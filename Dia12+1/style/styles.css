@@ -1,0 +1,12 @@
+.body{
+    margin: 0;
+    image-rendering: pixelated;
+}
+.Fondo img{
+ width: 100%;
+height: 100%;
+}
+.Sol img{
+    width: 20%;
+    height: 40%;
+}
