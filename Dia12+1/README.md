@@ -1,0 +1,1 @@
+Se realizó una página usando diferentes tipos de animaciones a distintos objetos

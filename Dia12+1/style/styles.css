@@ -2,6 +2,14 @@
     font-family: "Game";
     src: url(../Fonts/homevideo.ttf);
 }
+.Countdown{
+    font-size: 620%;
+    font-family: "Game";
+    position: absolute;
+    left: 50%;
+    animation: letters 10s linear;
+    animation-direction: alternate;
+}
 .body{
     margin: 0;
     image-rendering: optimizeQuality;
@@ -29,13 +37,69 @@ position: absolute;
     animation: cloud 15s linear;
     animation-delay: 5s;
 }
+
 .Countdown{
     font-size: 620%;
     font-family: "Game";
     position: relative;
     left: 50%;
     animation: letters 10s linear;
+    animation-direction: alternate;
+    opacity: 100%;
 }
+.Girasol iframe{
+    width:500px;
+    height: 500px;
+    position: relative;
+    margin-left:15%;
+    margin-top: 1%;
+    scale: 100%;
+    border: none;
+    left: 30vw;
+   
+}
+.Girasol{
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    opacity: 0%;    
+    animation: Girasol 10s linear;
+    animation-delay: 20s;
+}
+.Gotas1, .Gotas2, .Gotas3 , .Gotas4{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    margin-left:50%;
+    margin-top: 3%;
+    opacity: 0%;
+    animation: Gotas 10s linear;
+    animation-delay: 10s;
+}
+.Gotas5, .Gotas6 , .Gotas7 , .Gotas8{
+    width: 20%;
+    height: 50%;
+    margin-left:45%;
+    margin-top: -10%;
+    opacity: 0%;
+    animation: Gotas 10s linear;
+    animation-delay: 10s;
+    
+}
+.Gotas9, .Gotas10 , .Gotas11{
+    width: 40%;
+    height: 50%;
+    margin-left:55%;
+    margin-top: 1%;
+    opacity: 0%;
+    animation: Gotas 10s linear;
+    animation-delay: 10s;
+
+}
+
+
 @keyframes cloud {
     0%{left:100vw;}
     30%{left: -60vw;}
@@ -53,5 +117,41 @@ position: absolute;
     
     0%{margin-top: -1vw; opacity: 0%;}
 }
+@keyframes Gotas {
+    0%{opacity: 100%;}
+    50%{opacity: 100%; margin-top: 5%;}
+    60%{opacity: 100%; margin-top: 6%;}
+    80%{opacity: 100%; margin-top: 7%;}
+}
+@keyframes Girasol {
+    0%{opacity: 10%;}
+    30%{opacity: 30%;}
+    50%{opacity: 50%;}
+    80%{opacity: 100%;}
+}
 
-#l1{ animation-delay: 3s;}
+#l1, #l2, #l3, #l4{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    animation-name: letters;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+
+}
+
+#l1{
+    animation-delay: 0s;
+}
+#l2{
+    animation-delay: 2s;
+}
+
+#l3{
+    animation-delay: 4s;
+}
+
+#l4{
+    animation-delay: 6s;
+}
+
