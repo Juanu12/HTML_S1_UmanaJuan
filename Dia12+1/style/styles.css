@@ -2,6 +2,9 @@
     font-family: "Game";
     src: url(../Fonts/homevideo.ttf);
 }
+body{
+    overflow: hidden;
+}
 .Countdown{
     font-size: 620%;
     font-family: "Game";
@@ -17,7 +20,7 @@
 .Fondo img{
  width: 100%;
 height: 100%;
-position: absolute;
+position: fixed;
 
 }
 .Sol img{
@@ -39,22 +42,24 @@ position: absolute;
 }
 
 .Countdown{
-    font-size: 620%;
-    font-family: "Game";
-    position: relative;
-    left: 50%;
-    animation: letters 10s linear;
-    animation-direction: alternate;
-    opacity: 100%;
+    margin: 15vw 0vw 0vw 0vw;
+    font-size: 500%;
+  font-family: "Game";
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  opacity: 100%;
+  transform: scale(300%);
 }
 .Girasol iframe{
     width:500px;
     height: 500px;
-    position: relative;
+    position: fixed;
     margin-left:15%;
-    margin-top: 1%;
-    scale: 100%;
+    margin-top: 10vw;
     border: none;
+    transform: scale(200%);
     left: 30vw;
    
 }
@@ -63,15 +68,17 @@ position: absolute;
     height: 100%;
     border: none;
     display: flex;
+    position: fixed;
     align-items: center;
     opacity: 0%;    
     animation: Girasol 10s linear;
     animation-delay: 20s;
+    transform: scale(100%);
 }
 .Gotas1, .Gotas2, .Gotas3 , .Gotas4{
     width: 20%;
     height: 50%;
-    position: relative;
+    position: fixed;
     margin-left:50%;
     margin-top: 3%;
     opacity: 0%;
@@ -86,6 +93,7 @@ position: absolute;
     opacity: 0%;
     animation: Gotas 10s linear;
     animation-delay: 10s;
+    position: fixed;
     
 }
 .Gotas9, .Gotas10 , .Gotas11{
@@ -96,7 +104,7 @@ position: absolute;
     opacity: 0%;
     animation: Gotas 10s linear;
     animation-delay: 10s;
-
+    position: fixed;
 }
 
 
@@ -112,16 +120,35 @@ position: absolute;
 }
 
 @keyframes letters {
-    100%{ margin-top: 1vw; opacity: 0%;}
-    50%{margin-top: 0; opacity: 100% ;}
+    0%   { margin-top: 1vw; opacity: 100%; }
+    80%  { margin-top: 0; opacity: 100%; }
+    100% { margin-top: 0; opacity: 0%; }
     
-    0%{margin-top: -1vw; opacity: 0%;}
+}
+@keyframes letters {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
 }
 @keyframes Gotas {
     0%{opacity: 100%;}
     50%{opacity: 100%; margin-top: 5%;}
     60%{opacity: 100%; margin-top: 6%;}
     80%{opacity: 100%; margin-top: 7%;}
+    100%{opacity: 100%; margin-top: 9%;}
 }
 @keyframes Girasol {
     0%{opacity: 10%;}
@@ -133,25 +160,31 @@ position: absolute;
 #l1, #l2, #l3, #l4{
     width: 20%;
     height: 20%;
-    position: relative;
+    position: fixed;
     animation-name: letters;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: both;
+
 
 }
 
 #l1{
     animation-delay: 0s;
+    opacity: 0%;
+    
 }
 #l2{
     animation-delay: 2s;
+    opacity: 0%;
 }
 
 #l3{
     animation-delay: 4s;
+    opacity: 0%;
 }
 
 #l4{
     animation-delay: 6s;
+    opacity: 0%;
 }
 
